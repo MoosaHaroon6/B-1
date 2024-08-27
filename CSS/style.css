@@ -1,0 +1,33 @@
+/* selectors
+1) universal  (*) 
+2)type       (tag name) <p></p>
+3)class       dot (.)   <p class="para">my name is Sir Moosa.</p>
+4)Id          hash(#)   <p id="para">my name is Sir Moosa.</p>
+*/
+
+* {
+    background-color: #a6b2cc;
+}
+
+.para {
+    text-align: center;
+    background-color: orange;
+    color: antiquewhite;
+}
+
+#saad {
+    background-color: red;
+    color: beige;
+    text-align: center;
+}
+
+.para {
+    background-color: #9fef00 !important;
+    font-family: monospace;
+    color: black;
+}
+
+.special-word {
+    color: lightcoral;
+    background-color: #9fef00;
+}
