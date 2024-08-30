@@ -6,7 +6,9 @@
 */
 
 * {
-    background-color: #a6b2cc;
+    background-color: #212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellowgreen;
 }
 
 .para {
@@ -25,9 +27,37 @@
     background-color: #9fef00 !important;
     font-family: monospace;
     color: black;
+    /* line-height: 100px; */
 }
 
 .special-word {
     color: lightcoral;
     background-color: #9fef00;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(100, 205, 0);
+    color: #9fef00;
+    text-align: center;
+    /* margin: auto; */
+    /* margin-top: 100px; */
+    /* margin-left: 100px; */
+    /* padding: 20px 20px 20px 20px; */
+    /* border-radius: 75px 75px 30px 30px; */
+    box-shadow: 10px 10px 100px #9fef00;
+}
+
+.box span {
+    border: 1px solid #9fef00;
+    color: yellow;
+    display: block;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 15px;
+    text-transform:uppercase;
+
+}
+
